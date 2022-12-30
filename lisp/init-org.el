@@ -1,5 +1,6 @@
-;;; initialize org mode
 
-
+; 
+(package-install 'org-modern)
+(global-org-modern-mode)
 
 (provide 'init-org)
