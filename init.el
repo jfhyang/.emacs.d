@@ -9,6 +9,8 @@
 (require 'init-package)
 (require 'init-frame)
 (require 'init-window)
+(require 'init-minibuffer)
+(require 'init-file)
 (require 'init-buffer)
 (require 'init-completion)
 (require 'init-org)

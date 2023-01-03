@@ -4,10 +4,6 @@
 (setq company-minimum-prefix-length 1)
 (setq company-idle-delay 0)
 
-; 基于默认补全系统的垂直补全界面
-(package-install 'vertico)
-(vertico-mode t)
-
 ; orderless completion
 (package-install 'orderless)
 (setq completion-styles '(orderless))
