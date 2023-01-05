@@ -1,4 +1,3 @@
-'
 (setq org-startup-indented t)
 ; 
 ; (package-install 'org-modern)
