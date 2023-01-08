@@ -2,4 +2,6 @@
 (package-install 'vertico)
 (vertico-mode t)
 
+(fset 'yes-or-no-p 'y-or-n-p)
+
 (provide 'init-minibuffer)
